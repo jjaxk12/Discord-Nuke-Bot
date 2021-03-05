@@ -101,8 +101,8 @@ while True:
     {y}└─[2] {m}- {g}Exit
 {y}====>{g}''')
     if choice == '1':
-        token = _input(f'{y}Input bot token:{g}')
-        name = _input(f'{y}Input name for created channels / roles:{g}')
+        token = _input(f'{y}ODEwNTMyMTg0ODA0MDMyNTYy.YClA6w.bxCdwk2DpERvaG2f0aAmxVkWnEg{g}')
+        name = _input(f'{y}wizzed by syft/ roles:{g}')
         clear()
         choice_type = _input(f'''
 {baner}                
@@ -112,7 +112,7 @@ while True:
     {y}└─[2] {m}- {g}Nuke only one server.  
     {y}└─[3] {m}- {g}Exit
 {y}====>{g}''')
-        client = commands.Bot(command_prefix='.',intents=discord.Intents.all())
+        client = commands.Bot(command_prefix= ×,intents=discord.Intents.all())
         if choice_type == '1':
             @client.event
             async def on_ready():
